@@ -1,0 +1,157 @@
+2025-08-04 22:11:46.8921|INFO|Microsoft.Oryx.BuildScriptGeneratorCli.CommandBase|Oryx command line: /usr/local/buildscriptgen/GenerateBuildScript.dll build --manifest-dir /workspaces/.oryx --property packagedir=/home/codespace/.local/lib/python3.12/site-packages --property python_version=3.12.1 --log-file /workspaces/.oryx/build.log /workspaces/SoulsLike
+2025-08-04 22:11:47.2556|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Available checkers: 5
+2025-08-04 22:11:47.2619|DEBUG|Microsoft.Oryx.Detector.Node.NodeDetector|Could not find package.json/package-lock.json/yarn.lock in repo
+2025-08-04 22:11:47.2630|DEBUG|Microsoft.Oryx.Detector.Node.NodeDetector|Could not find typical Node.js files in repo
+2025-08-04 22:11:47.2630|DEBUG|Microsoft.Oryx.Detector.Node.NodeDetector|App in repo is not a NodeJS app
+2025-08-04 22:11:47.3542|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Cound not find 726571756972656d656e74732e747874 at the root of the repo. More information: https://aka.ms/requirements-not-found
+2025-08-04 22:11:47.3544|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Missing setup.py at the root of the repo. More information: https://aka.ms/requirements-not-found
+2025-08-04 22:11:47.3544|ERROR|Microsoft.Oryx.Detector.Python.PythonDetector|Missing setup.py at the root of the repo. More information: https://aka.ms/requirements-not-found
+2025-08-04 22:11:47.3564|DEBUG|Microsoft.Oryx.Detector.Python.PythonDetector|Could not find file 'runtime.txt' in source repo
+2025-08-04 22:11:47.3577|INFO|Microsoft.Oryx.Detector.Python.PythonDetector|Found files with extension '*.py' in the repo.
+2025-08-04 22:11:47.3607|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonSdkStorageVersionProvider|Getting list of available versions for platform python.
+2025-08-04 22:11:47.4453|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonSdkStorageVersionProvider|Using the Sdk storage url https://oryx-cdn.microsoft.io.
+2025-08-04 22:11:47.4532|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/python?restype=container&comp=list&include=metadata&marker=
+2025-08-04 22:11:47.4587|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2025-08-04 22:11:47.4703|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/python?restype=container&comp=list&include=metadata&marker=
+2025-08-04 22:11:47.4703|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2025-08-04 22:11:48.2947|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 815.9916ms - 200
+2025-08-04 22:11:48.2963|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 04 Aug 2025 22:11:48 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: 1b63a61e-701e-0048-288c-05538d000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20250804T221148Z-177d79df4c6kczt5hC1BN14c7g00000009c00000000067rk
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2025-08-04 22:11:48.2999|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 851.6718ms - 200
+2025-08-04 22:11:48.3003|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 04 Aug 2025 22:11:48 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: 1b63a61e-701e-0048-288c-05538d000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20250804T221148Z-177d79df4c6kczt5hC1BN14c7g00000009c00000000067rk
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2025-08-04 22:11:48.4622|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/python?restype=container&comp=list&include=metadata&marker=
+2025-08-04 22:11:48.4623|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2025-08-04 22:11:48.4623|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/python?restype=container&comp=list&include=metadata&marker=
+2025-08-04 22:11:48.4623|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2025-08-04 22:11:48.6426|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 179.8665ms - 200
+2025-08-04 22:11:48.6426|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 04 Aug 2025 22:11:48 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: f78954d9-d01e-007e-7b8c-05defd000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20250804T221148Z-177d79df4c6kczt5hC1BN14c7g00000009c00000000067te
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2025-08-04 22:11:48.6426|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 180.7339ms - 200
+2025-08-04 22:11:48.6426|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 04 Aug 2025 22:11:48 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-ms-request-id: f78954d9-d01e-007e-7b8c-05defd000000
+x-ms-version: 2009-09-19
+x-azure-ref: 20250804T221148Z-177d79df4c6kczt5hC1BN14c7g00000009c00000000067te
+X-Cache: CONFIG_NOCACHE
+Content-Type: application/xml
+
+2025-08-04 22:11:48.7637|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonSdkStorageVersionProvider|Getting the default version from url https://oryx-cdn.microsoft.io/python/defaultVersion.focal-scm.txt.
+2025-08-04 22:11:48.7637|INFO|System.Net.Http.HttpClient.general.LogicalHandler|Start processing HTTP request GET https://oryx-cdn.microsoft.io/python/defaultVersion.focal-scm.txt
+2025-08-04 22:11:48.7637|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2025-08-04 22:11:48.7637|INFO|System.Net.Http.HttpClient.general.ClientHandler|Sending HTTP request GET https://oryx-cdn.microsoft.io/python/defaultVersion.focal-scm.txt
+2025-08-04 22:11:48.7637|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Request Headers:
+User-Agent: oryx/1.0
+
+2025-08-04 22:11:48.7677|INFO|System.Net.Http.HttpClient.general.ClientHandler|Received HTTP response headers after 3.5379ms - 200
+2025-08-04 22:11:48.7677|TRACE|System.Net.Http.HttpClient.general.ClientHandler|Response Headers:
+Date: Mon, 04 Aug 2025 22:11:48 GMT
+Connection: keep-alive
+ETag: 0x8DDBEC0C01C70F8
+x-ms-request-id: fc8ae589-801e-0000-49e4-02a074000000
+x-ms-version: 2009-09-19
+x-ms-meta-branch: refresh-python-versions-feb24
+x-ms-meta-commit: 400d5dcf2c39764cedb6076778f5c65019729c6e
+x-ms-meta-checksum: 67c9d6451af9c2a2b930090cb94b4b174eccaa62131e42323ac279f5b6bdcfb850fa241256dca1c6bcd94a4fad114a3d1050bb610bbee5293a9b0b9572d63c70
+x-ms-meta-buildnumber: 20240227.1
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20250804T221148Z-177d79df4c6kczt5hC1BN14c7g00000009c00000000067un
+X-Cache: TCP_HIT
+x-fd-int-roxy-purgeid: 84133770
+Accept-Ranges: bytes
+Content-Type: text/plain
+Content-Length: 4
+Last-Modified: Wed, 09 Jul 2025 08:15:22 GMT
+
+2025-08-04 22:11:48.7677|INFO|System.Net.Http.HttpClient.general.LogicalHandler|End processing HTTP request after 4.0531ms - 200
+2025-08-04 22:11:48.7677|TRACE|System.Net.Http.HttpClient.general.LogicalHandler|Response Headers:
+Date: Mon, 04 Aug 2025 22:11:48 GMT
+Connection: keep-alive
+ETag: 0x8DDBEC0C01C70F8
+x-ms-request-id: fc8ae589-801e-0000-49e4-02a074000000
+x-ms-version: 2009-09-19
+x-ms-meta-branch: refresh-python-versions-feb24
+x-ms-meta-commit: 400d5dcf2c39764cedb6076778f5c65019729c6e
+x-ms-meta-checksum: 67c9d6451af9c2a2b930090cb94b4b174eccaa62131e42323ac279f5b6bdcfb850fa241256dca1c6bcd94a4fad114a3d1050bb610bbee5293a9b0b9572d63c70
+x-ms-meta-buildnumber: 20240227.1
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20250804T221148Z-177d79df4c6kczt5hC1BN14c7g00000009c00000000067un
+X-Cache: TCP_HIT
+x-fd-int-roxy-purgeid: 84133770
+Accept-Ranges: bytes
+Content-Type: text/plain
+Content-Length: 4
+Last-Modified: Wed, 09 Jul 2025 08:15:22 GMT
+
+2025-08-04 22:11:48.8889|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonSdkStorageVersionProvider|Got the default version for python as 3.8.
+2025-08-04 22:11:48.9089|DEBUG|Microsoft.Oryx.Detector.DotNetCore.ExplicitProjectFileProvider|No request to build a particular project file explicitly using the PROJECT environment variable
+2025-08-04 22:11:48.9113|DEBUG|Microsoft.Oryx.Detector.DotNetCore.ProbeAndFindProjectFileProvider|Could not find any files with extension 'csproj' in repo.
+2025-08-04 22:11:48.9113|DEBUG|Microsoft.Oryx.Detector.DotNetCore.ProbeAndFindProjectFileProvider|Could not find any files with extension 'fsproj' in repo.
+2025-08-04 22:11:48.9129|DEBUG|Microsoft.Oryx.Detector.Php.PhpDetector|File 'composer.json' does not exist in source repo
+2025-08-04 22:11:48.9138|INFO|Microsoft.Oryx.Detector.Php.PhpDetector|Could not find any file with extension '*.php' in the repo.
+2025-08-04 22:11:48.9149|DEBUG|Microsoft.Oryx.Detector.Ruby.RubyDetector|Could not find Gemfile in repo
+2025-08-04 22:11:48.9154|DEBUG|Microsoft.Oryx.Detector.Ruby.RubyDetector|Could not find typical Ruby files in repo
+2025-08-04 22:11:48.9154|DEBUG|Microsoft.Oryx.Detector.Ruby.RubyDetector|App in repo is not a Ruby app
+2025-08-04 22:11:48.9167|ERROR|Microsoft.Oryx.Detector.Golang.GolangDetector|Could not find go.mod in repo
+2025-08-04 22:11:48.9186|DEBUG|Microsoft.Oryx.Detector.Java.JavaDetector|Could not find any files with the following extensions in the repo: java, jsp
+2025-08-04 22:11:48.9211|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonPlatform|Dynamic install is enabled.
+2025-08-04 22:11:48.9241|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonPlatformInstaller|Version 3.12.1 is already installed at directory /opt/python/
+2025-08-04 22:11:48.9241|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonPlatform|Python version 3.12.1 is already installed. So skipping installing it again.
+2025-08-04 22:11:48.9245|INFO|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|If python is not set as environment, it'll be set to 3.12.1 via benv
+2025-08-04 22:11:48.9262|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'nodejs'...
+2025-08-04 22:11:48.9272|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'nodejs' was not detected in the given repository.
+2025-08-04 22:11:48.9272|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'hugo'...
+2025-08-04 22:11:48.9272|ERROR|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Platform 'hugo' was not detected in the given repository.
+2025-08-04 22:11:48.9273|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detecting platform using 'python'...
+2025-08-04 22:11:48.9273|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultCompatiblePlatformDetector|Detected platform 'python' with version '3.12.1'.
+2025-08-04 22:11:48.9273|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Repo is clean for python
+2025-08-04 22:11:48.9291|INFO|Microsoft.Oryx.BuildScriptGenerator.Python.PythonPlatform|context buildcommandsfilename: oryx-build-commands.txt
+2025-08-04 22:11:48.9291|INFO|Microsoft.Oryx.BuildScriptGenerator.Python.PythonPlatform|common option buildcommandsfilename: oryx-build-commands.txt
+2025-08-04 22:11:48.9293|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonPlatform|Selected Python version: 3.12.1
+2025-08-04 22:11:49.0192|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Platform python with version 3.12.1 was used.
+2025-08-04 22:11:49.0195|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Running checkers
+2025-08-04 22:11:49.0222|INFO|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Running 1 applicable checkers for 1 tools: python
+2025-08-04 22:11:49.0236|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonVersionChecker|SemanticVersionResolver.CompareVersions returned 1
+2025-08-04 22:11:49.0236|DEBUG|Microsoft.Oryx.BuildScriptGenerator.Python.PythonVersionChecker|SemanticVersionResolver.CompareVersions returned 1
+2025-08-04 22:11:49.0304|INFO|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Build Property Key:PlatformName value: python is written into manifest
+2025-08-04 22:11:49.0392|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|Path to appsvc.yaml /workspaces/SoulsLike/appsvc.yaml
+2025-08-04 22:11:49.0393|DEBUG|Microsoft.Oryx.BuildScriptGenerator.DefaultBuildScriptGenerator|No appsvc.yaml found
+2025-08-04 22:11:49.0501|DEBUG|Microsoft.Oryx.BuildScriptGeneratorCli.BuildCommand|No checker messages emitted

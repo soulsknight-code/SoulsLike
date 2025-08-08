@@ -1,0 +1,7 @@
+PythonVersion="3.12.1"
+pythonBuildCommandsFile="/workspaces/.oryx/oryx-build-commands.txt"
+packagedir="/home/codespace/.local/lib/python3.12/site-packages"
+OperationId="336f6eac2554bd6e"
+SourceDirectoryInBuildContainer="/workspaces/SoulsLike"
+PlatformName="python"
+CompressDestinationDir="false"
